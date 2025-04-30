@@ -1,24 +1,46 @@
-# Compiled class file
-*.class
+# Node modules (if you use Node.js for any part of the project)
+node_modules/
 
-# Log file
+# Dependency directories (such as npm or yarn)
+bower_components/
+
+# Logs
 *.log
 
-# BlueJ files
-*.ctxt
+# Operating System Files
+.DS_Store
+Thumbs.db
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# IDE/Editor specific files (VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
+# Build and temporary files
+/dist/
+/build/
+/tmp/
+
+# Package distribution files
+*.tgz
 *.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# Environment variables
+.env
+
+# Git directories (if any)
+.git/
+
+# Windows specific files
+*.bak
+*.swp
+
+# Ignore files for web projects
+*.css.map
+*.js.map
+
+# Ignore system files
+*.DS_Store
+
+# Ignore compiled HTML, CSS, JS files (if you don't want them tracked)
+*.min.css
+*.min.js
